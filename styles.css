@@ -1,7 +1,16 @@
 @font-face {
-    font-family: 'Bagoss';
-    src: url('assets/ba4n.woff2') format('woff2');
+    font-family: 'Graphik';
+    src: url('assets/Graphik-Regular-Web.woff2') format('woff2'),
+         url('assets//Graphik-Regular-Web.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('assets//Graphik-Medium-Web.woff2') format('woff2'),
+         url('assets//Graphik-Medium-Web.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -16,108 +25,35 @@ body {
     line-height: 1.6;
     background: #fff;
     color: #333;
-}
-
-header {
-    background: #f8f9fa;
-    padding: 1rem 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
+    max-width: 660px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 20px;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+h1 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin-left: 1.5rem;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: colour 0.3s;
-}
-
-.nav-links a:hover {
-    color: #007bff;
-}
-
-#hero {
-    background: #007bff;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: centre;
-    align-items: centre;
-    text-align: centre;
-    padding: 0 2rem;
-}
-
-.hero-content {
-    max-width: 800px;
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.cta-button {
-    background: #fff;
-    colour: #007bff;
-    padding: 0.8rem 2rem;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.cta-button:hover {
-    background: #e9ecef;
-}
-
-.content-section {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: centre;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.project {
-    width: 45%;
-    margin-bottom: 2rem;
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
     text-align: left;
 }
 
-footer {
-    background: #f8f9fa;
-    text-align: centre;
-    padding: 1rem 0;
-    margin-top: 2rem;
+h3 {
+    font-size: 1.75em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
 }
